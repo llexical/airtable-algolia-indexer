@@ -1,0 +1,26 @@
+{
+  "name": "airtable-algolia-indexer",
+  "version": "1.0.0",
+  "description": "So we need to index all airtable records into algolia, this is what this does.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebuild-Black-Business/airtable-algolia-indexer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebuild-Black-Business/airtable-algolia-indexer/issues"
+  },
+  "homepage": "https://github.com/Rebuild-Black-Business/airtable-algolia-indexer#readme",
+  "dependencies": {
+    "airtable": "^0.8.1",
+    "algoliasearch": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "slug": "^3.3.0"
+  }
+}
